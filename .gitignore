@@ -1,0 +1,34 @@
+# Build output
+target/
+*.class
+*.jar
+!**/lib/*.jar
+
+# Maven
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
+*.hprof
+surefire-reports/
+
+# Prompt / internal docs (not part of the repository)
+docs/LOGIC-PROMPT.md
